@@ -19,8 +19,8 @@ public class DigitalDisplay extends Observer
 	}
 	
 	// Called when ClockTimer updates
-	public void Update(Subject subject)
+	public void Update()
 	{
-		System.out.format("DigitalDisplay reads: %s\n", ((ClockTimer) subject).GetTime());
+		System.out.format("DigitalDisplay reads: %s\n", _subject.GetTime());
 	}
 }

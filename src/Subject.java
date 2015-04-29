@@ -23,12 +23,12 @@ public abstract class Subject
 		_observers.remove(observer);
 	}
 	
-	// Notify all observers of a change
+	// Notify all observers there has been a change
 	public void Notify()
 	{
 		for (Observer observer: _observers)
 		{
-			observer.Update(this);
+			observer.Update();
 		}
 	}
 }
