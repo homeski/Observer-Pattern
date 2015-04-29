@@ -1,2 +1,2 @@
-# Observer-Pattern
-Observer object behavioral pattern implementation
+# observer-pattern
+Observer design pattern implementation
